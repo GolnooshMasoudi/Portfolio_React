@@ -1,4 +1,5 @@
 header {
+<<<<<<< HEAD
   height: 100vh;
   padding-top: 0;
   overflow: hidden;
@@ -18,10 +19,34 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+=======
+    height: 100vh;
+    padding-top:0;
+    overflow: hidden;
+    margin-top: 0;
+
+}
+
+.header-container {
+    padding-top: 3rem;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+/* ------------------Btns--------------------- */
+.btns {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+>>>>>>> origin/main
 }
 
 /* ------------------header_socials--------------------- */
 .header-socials {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,28 +89,92 @@ header {
   left: 50%;
   transform: translateX(-50%);
   bottom: 3rem;
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header-socials ::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 1.8rem;
+    background: var(--color-primary);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+/* ------------------Me--------------------- */
+.me {
+    background:
+        linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 48% 48% 0 0;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.img-me {
+    border-radius: 50% 50% 0 0;
+    padding: 1rem;
+    height: 27rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3rem;
+>>>>>>> origin/main
 }
 
 /* ------------------Scroll Down--------------------- */
 .scroll-down {
+<<<<<<< HEAD
   position: absolute;
   transform: rotate(90deg);
   right: 0;
   bottom: 3rem;
   font-weight: 300;
   font-size: 0.9rem;
+=======
+    position: absolute;
+    transform: rotate(90deg);
+    right: 0;
+    bottom: 3rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+>>>>>>> origin/main
 }
 
 /* ------------medium device-------------- */
 
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
   header {
     height: auto;
   }
+=======
+@media screen and (max-width: 1024px){ 
+    header{
+        height: auto;
+    }
+>>>>>>> origin/main
 }
 
 /* ------------medium device-------------- */
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
@@ -95,3 +184,13 @@ header {
     display: none;
   }
 }
+=======
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+    .header-socials, .scroll-down{
+        display: none;
+    }
+} 
+>>>>>>> origin/main

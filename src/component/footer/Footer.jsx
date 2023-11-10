@@ -7,7 +7,11 @@ const Footer = () => {
   return (
     <footer>
       <a href="#home" className="footer-logo">
+<<<<<<< HEAD
         Golnoosh Masoudi
+=======
+        Nooshi Masoudi
+>>>>>>> origin/main
       </a>
       {/* <br />
       <b>

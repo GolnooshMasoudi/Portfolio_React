@@ -18,7 +18,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
     "dev": "react-scripts start",
+=======
+>>>>>>> origin/main
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,9 +43,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
   "license": "ISC"
+=======
+  }
+>>>>>>> origin/main
 }

@@ -15,18 +15,30 @@
 
 .education:hover {
   background: transparent;
+<<<<<<< HEAD
   background-color: hsl(0, 91%, 30%);
+=======
+  background-color: var(--color-primary-variant);
+>>>>>>> origin/main
   cursor: default;
 }
 
 .education-head {
+<<<<<<< HEAD
   background: hsl(0, 91%, 30%);
+=======
+  background: var(--color-primary);
+>>>>>>> origin/main
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0, 0.1);
 }
 .education-head h3 {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: var(--color-bg);
+>>>>>>> origin/main
   font-size: 1rem;
   text-align: center;
 }

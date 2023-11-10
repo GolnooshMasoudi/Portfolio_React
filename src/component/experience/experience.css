@@ -13,7 +13,11 @@
 
 .experience-container > div {
   background: transparent;
+<<<<<<< HEAD
   background-color: hsl(0, 91%, 30%);
+=======
+  background-color: #7a1734;
+>>>>>>> origin/main
   cursor: default;
 }
 

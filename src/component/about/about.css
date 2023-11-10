@@ -12,7 +12,11 @@
   background: linear-gradient(
     45deg,
     transparent,
+<<<<<<< HEAD
     hsl(0, 91%, 30%),
+=======
+    var(--color-primary),
+>>>>>>> origin/main
     transparent
   );
   display: grid;
@@ -52,7 +56,11 @@
 .about-card {
   width: 32%;
   padding: 2rem 0;
+<<<<<<< HEAD
   background-color: hsl(0, 91%, 30%);
+=======
+  background-color: var(--color-bg-variant);
+>>>>>>> origin/main
   border: 1px solid transparent;
   border-radius: 1rem;
   text-align: center;
@@ -62,11 +70,19 @@
 .about-card:hover {
   transition: var(--transition);
   background: transparent;
+<<<<<<< HEAD
   background-color: gray;
 }
 
 .about-icon {
   color: #fff;
+=======
+  background-color: var(--color-primary-variant);
+}
+
+.about-icon {
+  color: var(--color-primary);
+>>>>>>> origin/main
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }

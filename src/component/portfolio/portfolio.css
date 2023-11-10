@@ -8,7 +8,11 @@
 }
 
 .portfolio-item {
+<<<<<<< HEAD
   background: hsl(0, 91%, 30%);
+=======
+  background: var(--color-bg-variant);
+>>>>>>> origin/main
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -16,7 +20,11 @@
 }
 
 .portfolio-item:hover {
+<<<<<<< HEAD
   border-color: hsl(0, 91%, 30%);
+=======
+  border-color: var(--color-primary-variant);
+>>>>>>> origin/main
   background: transparent;
 }
 

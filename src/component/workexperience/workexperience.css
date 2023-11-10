@@ -9,7 +9,11 @@
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto 1rem;
+<<<<<<< HEAD
   border: 0.4rem solid hsl(0, 91%, 30%);
+=======
+  border: 0.4rem solid var(--color-primary-variant);
+>>>>>>> origin/main
 }
 
 .experience {
@@ -31,7 +35,11 @@
 .swiper-pagination-clickable .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
+<<<<<<< HEAD
   background: hsl(0, 91%, 30%);
+=======
+  background: var(--color-primary);
+>>>>>>> origin/main
 }
 
 /* ---------------Medium Device---------------- */

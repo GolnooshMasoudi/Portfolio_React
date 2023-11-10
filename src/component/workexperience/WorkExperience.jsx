@@ -2,7 +2,11 @@ import React from "react";
 import "./workexperience.css";
 import IMG1 from "../../assets/workexperience/DOCLOUNGE.jpg";
 import IMG2 from "../../assets/workexperience/SHOOKA.png";
+<<<<<<< HEAD
 import IMG3 from "../../assets/workexperience/SlowFashion.png";
+=======
+import IMG3 from "../../assets/workexperience/hi.png";
+>>>>>>> origin/main
 import IMG4 from "../../assets/workexperience/Prand.jpg";
 import IMG5 from "../../assets/workexperience/ATEC.jpg";
 
@@ -20,9 +24,15 @@ import "swiper/css/scrollbar";
 const data = [
   {
     logo: IMG3,
+<<<<<<< HEAD
     name: "SlowFashion",
     position: "Junior Frontend Developer",
     time: "Aug 2023 - Present ",
+=======
+    name: "Hyper Island",
+    position: "Junior Frontend Developer",
+    time: "Aug 2021 - Present ",
+>>>>>>> origin/main
     location: "Stockholm, Sweden",
   },
   {

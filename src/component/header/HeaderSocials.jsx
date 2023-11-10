@@ -7,7 +7,11 @@ const HeaderSocials = () => {
   return (
     <div className="header-socials">
       <a
+<<<<<<< HEAD
         href="https://www.linkedin.com/in/golnoosh-masoudi-b654a865/"
+=======
+        href="https://www.linkedin.com/in/nooshi-masoudi-b654a865/"
+>>>>>>> origin/main
         target="_blank"
         rel="noreferrer"
       >

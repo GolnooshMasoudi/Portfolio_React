@@ -1,6 +1,11 @@
 import React from "react";
+<<<<<<< HEAD
 import CV from "../../assets/header/GolnooshMasoudi_CV.pdf";
 import CL from "../../assets/header/GolnooshMasoudi_CoverLetter.pdf";
+=======
+import CV from "../../assets/header/Nooshi_Masoudi_CV.pdf";
+import CL from "../../assets/header/Nooshi_Masoudi_Cover_Letter.pdf";
+>>>>>>> origin/main
 
 const Btns = () => {
   return (
