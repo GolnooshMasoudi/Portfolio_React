@@ -1,0 +1,54 @@
+.container.experiences-container {
+  width: 50%;
+  padding-bottom: 4rem;
+}
+
+.experience-logo {
+  width: 6rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid hsl(0, 91%, 30%);
+}
+
+.experience {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.experience-review {
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  width: 100%;
+  margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background: hsl(0, 91%, 30%);
+}
+
+/* ---------------Medium Device---------------- */
+@media screen and (max-width: 1024px) {
+  .container.experiences-container {
+    width: 60%;
+  }
+}
+
+/* ------------small device-------------- */
+
+@media screen and (max-width: 600px) {
+  .container.experiences-container {
+    width: var(--container-width-sm);
+  }
+
+  .experience-review {
+    width: var(--container-width-sm);
+  }
+}

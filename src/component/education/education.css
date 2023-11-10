@@ -1,0 +1,72 @@
+.education-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  left: 20px;
+}
+
+.education {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.education:hover {
+  background: transparent;
+  background-color: hsl(0, 91%, 30%);
+  cursor: default;
+}
+
+.education-head {
+  background: hsl(0, 91%, 30%);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0, 0.1);
+}
+.education-head h3 {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+.education-list {
+  padding: 2rem;
+  text-align: left;
+}
+.education-list li {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.education-icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+  /* font-size: 2rem; */
+}
+
+.education-list p {
+  font-size: 0.9rem;
+}
+
+/* ------------medium device-------------- */
+
+@media screen and (max-width: 1024px) {
+  .education-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .education {
+    height: auto;
+  }
+}
+
+/* ------------small device-------------- */
+
+@media screen and (max-width: 600px) {
+  .education-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

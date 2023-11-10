@@ -1,0 +1,168 @@
+.about-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 55%;
+  gap: 10%;
+}
+
+.about-me {
+  width: 100%;
+  border-radius: 2rem;
+  aspect-ratio: 1/1;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    hsl(0, 91%, 30%),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.about-me-image {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  border-radius: 2rem;
+}
+
+.about-me-image:hover {
+  transform: rotate(0deg);
+  transition: var(--transition);
+}
+
+.about-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.about-cards {
+  /* grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-card {
+  width: 32%;
+  padding: 2rem 0;
+  background-color: hsl(0, 91%, 30%);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about-card:hover {
+  transition: var(--transition);
+  background: transparent;
+  background-color: gray;
+}
+
+.about-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-card h5 {
+  font-size: 0.95rem;
+}
+
+.about-card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about-content p {
+  margin: 2rem 0 2.5rem;
+  color: var(--color-light);
+  text-align: left;
+}
+.about-content a {
+  display: block !important;
+  text-align: center;
+}
+
+/* ------------medium device-------------- */
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin-top: 6rem;
+    height: auto;
+  }
+
+  .about-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about-me {
+    width: 50%;
+    margin: 3rem;
+  }
+  /* .about-cards{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin:1rem 0;
+    width: 100%;
+}
+.about-card{
+
+    width: 50%;
+} */
+}
+
+/* ------------small device-------------- */
+
+@media screen and (max-width: 600px) {
+  section > h2 {
+    margin-top: 2rem;
+  }
+
+  section {
+    height: auto;
+  }
+
+  .about-me {
+    width: 70%;
+    margin: 3rem;
+  }
+
+  .about-cards {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    /* margin:1rem 0; */
+    width: 100%;
+  }
+
+  .about-card {
+    margin: 1rem;
+    width: 100%;
+  }
+
+  /* .about-content {
+    text-align: center;
+  } */
+  .about-content p {
+    margin: 2rem 0 1rem;
+    text-align: left;
+  }
+
+  .about-content p {
+    margin: 1.5rem 0;
+  }
+}
